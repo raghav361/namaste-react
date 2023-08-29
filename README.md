@@ -20,22 +20,21 @@
 - Different DEV and PROD Bundles
 
 # Food Delivery App
-/**
- * Header
- *  - Logo
- *  - Nav Items
- * Body
- *  - Search
- *  - Restaurant Container
- *    - Restaurant Card
- *      - Image
- *      - Name of Restaurant, Star, Rating, Cuisine, Delivery Time
- * Footer
- *  - Copyright
- *  - Links
- *  - Address
- *  - Contact
- */
+
+Header
+- Logo
+- Nav Items
+Body
+- Search
+- Restaurant Container
+- Restaurant Card
+  - Image
+  - Name of Restaurant, Star, Rating, Cuisine, Delivery Time
+Footer
+- Copyright
+- Links
+- Address
+- Contact
 
 # Export/Import
 - Default Export/Import
