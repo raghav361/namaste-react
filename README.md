@@ -55,7 +55,7 @@ Header
 
   - useState()
 
-    - Local State Variable - Super Powerful State Variables in React
+    - Local State Variable - Super Powerful State Variables in React.
     - Whenever state variables are updated, React triggers a reconciliation cycle (re-renders the component).
     - Never create the state variables outside of the component.
     - Always call the useState() inside the component.
@@ -63,7 +63,7 @@ Header
     - Never call the useState() inside an condition/loops/functions.
 
   - useEffect()
-    - If no dependency array is present, then useEffect() is called on every render
+    - If no dependency array is present, then useEffect() is called on every render.
     - If a dependency array is present but empty, then useEffect() is called on the initial render only. (i.e just once)
     - If the dependency array is [buttonName], then useEffect() is called every time "buttonName" is updated.
 
