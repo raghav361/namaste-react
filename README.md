@@ -26,13 +26,17 @@ Header
 
 - Logo
 - Nav Items
-  Body
+
+Body
+
 - Search
 - Restaurant Container
 - Restaurant Card
   - Image
   - Name of Restaurant, Star, Rating, Cuisine, Delivery Time
-    Footer
+
+Footer
+
 - Copyright
 - Links
 - Address
@@ -71,3 +75,12 @@ Header
 
 - Client Side Routing
 - Server Side Routing
+
+# Redux ToolKit
+
+- Install @reduxjs/toolkit and react-redux
+- Build our Store
+- Connect our store to our app
+- Slice (cartSlice)
+- Dispatch (Action)
+- Selector
