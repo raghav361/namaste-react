@@ -53,6 +53,7 @@ const Body = () => {
 				<div className="m-4 p-4">
 					<input
 						type="text"
+						data-testid="searchInput"
 						className="border border-solid border-black"
 						value={searchText}
 						onChange={(e) => {
@@ -97,12 +98,12 @@ const Body = () => {
 				{filteredRestaurant.map((restaurant) => (
 					<Link
 						key={restaurant.info.id}
-						to={"/restaurants/" + restaurant.info.id}
+						to={"/restaurants/" + restaurant?.info.id}
 					>
-						{restaurant.info.promoted ? (
-							<RestaurantCardPromoted resData={restaurant} />
+						{restaurant?.info.promoted ? (
+							<RestaurantCardPromoted resData={restaurant?.info} />
 						) : (
-							<RestaurantCard resData={restaurant} />
+							<RestaurantCard resData={restaurant?.info} />
 						)}
 					</Link>
 				))}

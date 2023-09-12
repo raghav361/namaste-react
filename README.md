@@ -84,3 +84,22 @@ Footer
 - Slice (cartSlice)
 - Dispatch (Action)
 - Selector
+
+# Types of Testing (Developer)
+
+- Unit Testing
+- Integration Testing
+- End to End (E2E) Testing
+
+# Setting up Testing in our App
+
+- Install React Testing Library
+- Install Jest
+- Install Babel Dependencies
+- Configure Babel
+- Configure Parcel config file to disable default Babel transpilation
+- Jest configuration - npx jest --init
+- Install JSDOM Library
+- Install @babel/preset-react - To make JSX work in test cases
+- Include @babel/preset-react inside my Babel config
+- Install @testing-library/jest-dom

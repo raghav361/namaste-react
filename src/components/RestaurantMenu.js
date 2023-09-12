@@ -17,9 +17,8 @@ const RestaurantMenu = () => {
 	const { name, cuisines, costForTwoMessage } =
 		restaurantInfo?.cards[0]?.card?.card?.info;
 
-	const { itemCards } =
-		restaurantInfo?.cards[2]?.groupedCard?.cardGroupMap?.REGULAR?.cards[2]?.card
-			?.card;
+	// const { itemCards } =
+	// 	restaurantInfo?.cards[2]?.groupedCard?.cardGroupMap?.REGULAR?.cards[2]?.card?.card;
 
 	const categories =
 		restaurantInfo?.cards[2]?.groupedCard?.cardGroupMap?.REGULAR?.cards.filter(
